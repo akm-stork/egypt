@@ -1,0 +1,206 @@
+:root {
+  --primary-color: #54736a;
+  --primary-multiply-color: #FCB74A;
+  --primary-blend-color: #ebdcbb;
+  --secondary-color: #000000;
+}
+html {
+  scroll-behavior: smooth;
+}
+.contact0 {
+  position: relative;
+  color: white;
+}
+.contact0::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: .4;
+  background: url(./assets/contact.webp) no-repeat center center/cover;
+}
+.flex-imp {
+  display: flex !important;
+}
+.none-imp {
+  display: none !important;
+}
+.menu-trig {
+  background: transparent !important;
+  color: white !important;
+} 
+.menu-trig:hover {
+  border: none !important;
+}
+.transitionn {
+  transition: all 0.3s ease-in-out;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ob {
+  background-color: var(--primary-multiply-color) !important;
+}
+.explore-ic {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  left: 0.5rem;
+}
+.props-filter-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6rem;
+  width: 90%;
+  margin-bottom: 5rem;
+}
+.empty-text {
+  color: var(--primary-blend-color);
+	-webkit-text-stroke: 2px var(--primary-color);
+	text-shadow: 0px 4px 8px var(--primary-color);
+}
+.vertical-divider {
+  height: 2px;
+  width: 10rem;
+  background-color: var(--primary-color);
+  margin-left: 1rem;
+}
+.contact-page input {
+  border: 1px solid var(--primary-multiply-color);
+  padding: 1rem;
+  border-radius: 5px;
+}
+.contact-page textarea {
+  border: 1px solid var(--primary-multiply-color);
+  border-radius: 5px;
+  padding: 1rem;
+}
+.contact-page select {
+  border: 1px solid var(--primary-multiply-color);
+  border-radius: 5px;
+  padding: .7rem;
+}
+/* -------- media query---------- */
+@media screen and (min-width: 1300px) {
+  .nav-list {
+    display: flex !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-list {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 700px) {
+  .box {
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .model {
+    justify-content: center !important;
+    align-items: start !important;
+  }
+  .model-btns {
+    justify-content: start !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .product-display {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .product-image {
+    width: 90% !important;
+    flex-direction: column;
+  }
+  .product-data {
+    width: 90% !important;
+    display: flex;
+    justify-content: start !important;
+    align-items: center;
+  }
+  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .data-parag {
+    width: 70% !important;
+  }
+  .small-images {
+    flex-direction: row !important;
+    gap: 1rem;
+  }
+  .box {
+    height: 7rem;
+    width: 7rem;
+  }
+  .product-big-image {
+    width: 60% !important;
+  }
+  .ham {
+    display: flex !important;
+  }
+  .nav-list {
+    flex-direction: column !important;
+    height: 100vh;
+    width: 100% !important;
+    position: absolute;
+      top: 0;
+      left: 0;
+      background-color: var(--primary-multiply-color);
+      padding: 2rem;
+    }
+    .nav-list a {
+      font-size: 1.5rem;
+    }
+    .nav-list div {
+      font-size: 1.5rem;
+    }
+    .navbarInner {
+      display: none !important;
+      height: 0px !important;
+    }
+    .ham {
+      display: flex !important;
+    }
+    .header-container {
+      justify-content: center;
+      align-items: center;
+    }
+    .filter-web {
+      /* width: 50% !important;
+      flex-direction: column !important; */
+      display: none !important;
+      height: 0;
+      width: 0;
+    }
+    .modon-desc {
+      flex-direction: column !important;
+    }
+    .desc1 {
+      width: 100% !important;
+      height: 70vh !important;
+    }
+    .desc-t {
+      font-size: large !important;
+    }
+    .desc-tt {
+      font-size: medium;
+    }
+    .desc-p {
+      font-size: smaller;
+      margin-left: 1rem !important;
+      margin-right: 1rem !important;
+    }
+    .desc2 {
+      height: 70vh !important;
+      width: 100% !important;
+    }
+}

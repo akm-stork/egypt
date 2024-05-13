@@ -1,0 +1,67 @@
+
+.last-page {
+  display: flex;
+  height: 120vh;
+  }
+  .last-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    padding: 3rem;
+  }
+  .first-text {
+    width: 80%;
+  }
+  .bigger-h1 {
+    font-size: 1.5rem;
+  }
+  .icons-last {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+  }
+  .store-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+    width: 80%;
+    margin-top: 1rem;
+  }
+  .last-section2 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-last {
+    transition: all 0.3s ease-in-out;
+    background: url(../../assets/insta.webp) no-repeat center center/cover;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+  }
+@media screen and (max-width: 1200px) {
+  .last-section2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .last-page {
+    flex-direction: column !important;
+}
+.icons-last {
+  width: 100%;
+}
+.last-section {
+  height: 100% !important;
+  width: 100% !important;
+}
+.first-text {
+  width: 100% !important;
+}
+}

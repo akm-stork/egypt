@@ -1,0 +1,8 @@
+.navbar {
+    transition: all 0.7s ease-in-out;
+    /* position: relative; */
+  }
+
+  .box-shadow-nav {
+    box-shadow: 2px 2px 25px #063053cb;
+  }

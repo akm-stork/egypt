@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "poppins";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+@font-face {
+  font-family: 'Tajawal-Light';
+  src: url(./fonts/Tajawal-Light.ttf);
+}
+@font-face {
+  font-family: 'Tajawal-ExtraLight';
+  src: url(./fonts/Tajawal-ExtraLight.ttf);
+}
+@font-face {
+  font-family: 'Tajawal-Regular';
+  src: url(./fonts/Tajawal-Regular.ttf);
+}
+@font-face {
+  font-family: 'Tajawal-Medium';
+  src: url(./fonts/Tajawal-Medium.ttf);
+}
+@font-face {
+  font-family: 'Tajawal-Bold';
+  src: url(./fonts/Tajawal-Bold.ttf);
+}
+@font-face {
+  font-family: 'Tajawal-ExtraBold';
+  src: url(./fonts/Tajawal-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'Tajawal-Black';
+  src: url(./fonts/Tajawal-Black.ttf);
+}
+@font-face {
+  font-family: 'DM-Regular';
+  src: url(./fonts/Kanit-ExtraLight.ttf);
+}
+@font-face {
+  font-family: 'Optima';
+  src: url(./fonts/Optima.ttf);
+}
+@font-face {
+  font-family: 'Optima-Italic';
+  src: url(./fonts/Optima_Italic.woff);
+}
+@font-face {
+  font-family: 'Optima-Bold';
+  src: url(./fonts/OPTIMA_B.woff);
+}
+.extra-light {
+  font-family: 'Tajawal-ExtraLight';
+}
+.light:lang(en) {
+  font-family: 'DM-Regular';
+  font-weight: lighter;
+}
+.regular:lang(en) {
+  font-family: 'Optima';
+}
+.light:lang(ar) {
+  font-family: 'Tajawal-Light';
+}
+.regular:lang(ar) {
+  font-family: 'Tajawal-Regular';
+}
+.italic:lang(ar) {
+  font-family: 'Tajawal-Regular';
+}
+.italic:lang(en) {
+  font-family: 'Optima-Italic';
+}
+.medium {
+  font-family: 'Tajawal-Medium';
+}
+.bold:lang(ar) {
+  font-family: 'Tajawal-Bold';
+}
+.bold:lang(en) {
+  font-family: 'Optima-Bold';
+}
+.extra-bold {
+  font-family: 'Tajawal-ExtraBold';
+}
+.black {
+  font-family: 'Tajawal-Black';
+}
+.bigger-h1 {
+  font-weight: bolder;
+}
